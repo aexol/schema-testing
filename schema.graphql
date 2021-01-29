@@ -1,5 +1,9 @@
-type Query{ hello:String }
-schema{
-  query:Query
+type Query{
+	hello: String
+	world: String
+	now: String
+	flag: Boolean
 }
-                      
+schema{
+	query: Query
+}

@@ -1,6 +1,7 @@
 type Person implements Dateable{
 	firstName: String!
 	lastName: String!
+    hasACar: Boolean
 	age: Int!
 	friends: [Person!]!
 	createdAt: Date!

@@ -1,0 +1,20 @@
+type Person implements Dateable{
+	firstName: String!
+	lastName: String!
+	age: Int!
+	friends: [Person!]!
+	createdAt: Date!
+	updatedAt: Date!
+}
+
+interface Dateable{
+	createdAt: Date!
+	updatedAt: Date!
+}
+
+scalar Date
+
+extend type Person{
+	birthday: String
+	boolean: Boolean
+}

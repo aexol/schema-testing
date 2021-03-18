@@ -3,6 +3,12 @@ type Query{
 	world: String
 	now: String
 	flag: Boolean
+	age: Int
+	people: [Person]
+}
+
+type Person{
+	firstName: String
 }
 schema{
 	query: Query

@@ -3,6 +3,7 @@ type Query{
 	world: String
 	now: String
 	flag: Boolean
+	flag1: String
 }
 schema{
 	query: Query

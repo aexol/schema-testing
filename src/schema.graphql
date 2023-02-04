@@ -1,0 +1,11 @@
+type Query{
+	string: String
+	name: String
+}
+
+interface Hello{
+	string: String
+}
+schema{
+	query: Query
+}

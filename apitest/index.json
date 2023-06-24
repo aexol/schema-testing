@@ -1,0 +1,4 @@
+{
+  "gql": "query Hello {\n  hellso\n}\n",
+  "variableValues": {}
+}

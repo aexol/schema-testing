@@ -1,0 +1,4 @@
+{
+  "gql": "query qqq {\n  flag1\n}\n",
+  "variableValues": {}
+}

@@ -1,0 +1,4 @@
+{
+  "gql": "query AnotherTest {\n  hellso\n  now\n  world\n}\n",
+  "variableValues": {}
+}

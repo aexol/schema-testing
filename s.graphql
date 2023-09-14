@@ -1,3 +1,22 @@
+type Person{
+	firstName: String
+	lastName: String!
+	createdAt: String!
+	friends: [Person!]!
+	age: Int!
+	weight: Float
+	acyive: Boolean
+}
+
 type Query{
-    people:[String!]!
+	people: Person
+	health: String
+}
+
+scalar test
+
+scalar test123
+
+schema{
+	query: Query
 }
